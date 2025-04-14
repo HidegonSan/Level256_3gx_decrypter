@@ -16,7 +16,7 @@ void decrypt(uint* output, const uint* input, uint size) {
 
     // Key
     const uint TMP_DIFF_KEY    = 0x63DA901F;
-    const uint XOR_KEY  = 0x4B0C9A12;
+    const uint XOR_KEY  = 0x480C9A12;
     const int DIFF_KEY  = 0x5AE007DF;
 
     // tmp
